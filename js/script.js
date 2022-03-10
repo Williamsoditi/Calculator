@@ -26,6 +26,6 @@ $(document).ready(function() {
     event.preventDefault();
     var number1 = parseInt($("#add1").val());
     var number2 = parseInt($("#add2").val());
-    alert(add(number1, number2));
+    alert("Your answer is" + " " + add(number1, number2));
     });
 });
